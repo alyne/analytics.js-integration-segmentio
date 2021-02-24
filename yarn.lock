@@ -132,6 +132,18 @@
   dependencies:
     find-up "^2.1.0"
 
+"@lukeed/csprng@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@lukeed/csprng/-/csprng-1.0.0.tgz#733a122382749d27e2e46ec38f8c71c9d53a9636"
+  integrity sha512-ruuGHsnabmObBdeMg3vKdGRmh06Oog3eFpf/Tk6X0kDSJDpJTDCj2dqdp1+0VjzIUgHlFF9GBm7uFqfYhhdX9g==
+
+"@lukeed/uuid@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@lukeed/uuid/-/uuid-2.0.0.tgz#1c0f33c071cb6902bc3b9e475782ada7314ef9bd"
+  integrity sha512-dUz8OmYvlY5A9wXaroHIMSPASpSYRLCqbPvxGSyHguhtTQIy24lC+EGxQlwv71AhRCO55WOtgwhzQLpw27JaJQ==
+  dependencies:
+    "@lukeed/csprng" "^1.0.0"
+
 "@marionebl/sander@^0.6.0":
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/@marionebl/sander/-/sander-0.6.1.tgz#1958965874f24bc51be48875feb50d642fc41f7b"
@@ -465,17 +477,16 @@
     next-tick "^0.2.2"
     script-onload "^1.0.2"
 
-"@segment/localstorage-retry@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@segment/localstorage-retry/-/localstorage-retry-1.2.2.tgz#d141fab7212fd3efb0ee19bf7eb16b1e38930af3"
-  integrity sha1-0UH6tyEv0++w7hm/frFrHjiTCvM=
+"@segment/localstorage-retry@^1.2.4":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@segment/localstorage-retry/-/localstorage-retry-1.2.5.tgz#6e378160d0c9d02d4e0d17cea9cb200f36e26f19"
+  integrity sha512-wQ9HxNsEcWNotrBImO7fHTPThWg7lnymmdMqhnT2z6jCiNqHmDeK0ivnh+klomXI8AwAX4OpI0BO5cfNIS5nCw==
   dependencies:
+    "@lukeed/uuid" "^2.0.0"
     "@ndhoule/each" "^2.0.1"
     "@ndhoule/keys" "^2.0.0"
     component-emitter "^1.2.1"
     debug "^0.7.4"
-    json3 "^3.3.2"
-    uuid "^3.0.1"
 
 "@segment/prevent-default@^1.0.0":
   version "1.0.0"
