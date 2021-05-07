@@ -36,7 +36,7 @@
     "@segment/top-domain": "^3.0.0",
     "@segment/utm-params": "^2.0.0",
     "component-clone": "^0.2.2",
-    "component-cookie": "^1.1.2",
+    "component-cookie": "^1.1.5",
     "component-type": "^1.2.1",
     "json3": "^3.3.2",
     "uuid": "^2.0.2",
