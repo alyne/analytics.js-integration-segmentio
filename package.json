@@ -33,7 +33,7 @@
     "@segment/localstorage-retry": "^1.2.2",
     "@segment/protocol": "^1.0.0",
     "@segment/send-json": "^3.0.0",
-    "@segment/top-domain": "^3.0.0",
+    "@segment/top-domain": "^3.0.1",
     "@segment/utm-params": "^2.0.0",
     "component-clone": "^0.2.2",
     "component-cookie": "^1.1.2",
